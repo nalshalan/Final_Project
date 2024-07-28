@@ -1,0 +1,53 @@
+.canvas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #444;
+    background-color: #111;
+    position: relative;
+    margin: 10px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 30px; /* Adjust to match cellSize from utils.js */
+    height: 30px; /* Adjust to match cellSize from utils.js */
+    border: 1px solid #333;
+    box-sizing: border-box;
+  }
+  
+  .next-piece {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #444;
+    background-color: #111;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .next-piece .cell {
+    width: 25px; /* Adjust size for the next piece display */
+    height: 25px; /* Adjust size for the next piece display */
+    border: 1px solid #333;
+    box-sizing: border-box;
+  }
+  
+  .game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  

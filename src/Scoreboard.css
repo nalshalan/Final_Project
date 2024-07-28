@@ -1,0 +1,36 @@
+.scoreboard {
+    margin-top: 20px;
+}
+  
+.scoreboard table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+  
+.scoreboard th, 
+.scoreboard td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.scoreboard th {
+    background-color: #f2f2f2;
+    color: #383737;
+}
+
+.scoreboard tr:nth-child(odd) {
+    background-color: #000000;
+    color:#f2f2f2;
+}
+
+.scoreboard tr:nth-child(even) {
+    background-color: #4b4a4a;
+    color:#f2f2f2;
+}
+
+.scoreboard tr:hover {
+    background-color: #ddd;
+    color:#000000;
+}
