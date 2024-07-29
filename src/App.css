@@ -169,16 +169,6 @@ button {
   margin: 0 10px;
 }
 
-.mute-button-button{
-  background: none;
-  border: none;
-  position: relative;
-}
-
-.mute-music-button:focus {
-  outline: none;
-}
-
 .icon-container {
   position: relative;
   display: inline-block;
