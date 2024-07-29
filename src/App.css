@@ -158,11 +158,13 @@ button {
   font-size: 10px;
   cursor: pointer;
 }
+
 .home-buttons {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
+
 .home-buttons button {
   margin: 0 10px;
 }
